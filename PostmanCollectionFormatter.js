@@ -15,7 +15,6 @@ function extractItemInfo(item) {
         if(keys.length > 0) {
             bodyKeys = `Accepted Fields: ${keys.join(', ')}`;
         }
-            
     }
 
     const path = `Path: ${request.url.path.join('/')}\n`;
